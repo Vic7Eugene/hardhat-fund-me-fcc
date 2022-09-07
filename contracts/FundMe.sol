@@ -1,15 +1,14 @@
 // SPDX-License-Identifier: MIT
 // 1. Pragma
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.7;
 // 2. Imports
 import "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
 import "./PriceConverter.sol";
-
-// 3. Interfaces, Libraries, Contracts
+// 3. Errors, Interfaces, Libraries, Contracts
 error FundMe__NotOwner();
 
-/**@title A sample Funding Contract
- * @author Patrick Collins
+/**@title A sample Funding Contract Crowd Funding
+ * @author Alvic Josol
  * @notice This contract is for creating a sample funding contract
  * @dev This implements price feeds as our library
  */
