@@ -4,7 +4,7 @@ node_modules
 coverage
 coverage.json
 typechain
-
+deployments
 # vscode
 .vscode
 
@@ -13,7 +13,5 @@ cache
 artifacts
 .DS_Store
 gas-report.txt
-deployments
 
-# Patrick
 .notes.md
